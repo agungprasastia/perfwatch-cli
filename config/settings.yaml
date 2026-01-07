@@ -1,0 +1,44 @@
+# Perfwatch Configuration
+
+ai:
+  provider: gemini
+  model: gemini-2.5-flash
+  temperature: 0.3
+
+# Performance testing defaults
+performance:
+  timeout: 30
+  max_concurrent: 10
+  
+# PageSpeed API settings
+pagespeed:
+  strategy: mobile  # mobile or desktop
+  categories:
+    - performance
+    - accessibility
+    - best-practices
+    - seo
+
+# Load testing defaults
+loadtest:
+  requests: 100
+  concurrent: 10
+  timeout: 30
+
+# SEO analysis settings
+seo:
+  check_robots: true
+  check_sitemap: true
+  check_meta: true
+  check_headings: true
+
+# Reporting
+reports:
+  output_dir: reports
+  default_format: html
+  include_ai_recommendations: true
+
+# Logging
+logging:
+  level: INFO
+  format: rich
