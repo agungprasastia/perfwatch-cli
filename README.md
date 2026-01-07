@@ -63,7 +63,7 @@ Or create `.env` file manually:
 
 ```env
 GOOGLE_API_KEY=your_gemini_api_key_here
-PAGESPEED_API_KEY=optional_pagespeed_key
+PAGESPEED_API_KEY=your_pagespeed_api_key_here
 ```
 
 ### Settings (config/settings.yaml)
