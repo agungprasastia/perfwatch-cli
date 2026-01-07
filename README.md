@@ -34,8 +34,8 @@ Inspired by [Guardian CLI](https://github.com/zakirkun/guardian-cli).
 
 ```bash
 # Clone repository
-git clone <repo-url>
-cd perfwatch
+git clone https://github.com/agungprasastia/perfwatch-cli.git
+cd perfwatch-cli
 
 # Create virtual environment
 python -m venv venv
